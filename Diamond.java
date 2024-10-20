@@ -1,15 +1,30 @@
+import java.util.Scanner;
 
-
-public class Diamond{
+public class Diamond2{
 	
 	public static void main(String[]args) {
 		
+		Scanner input=new Scanner(System.in);
+		
+		//System.out.println("Enter a no.");
+		//int numberOfStars=input.nextInt();
+		
+		//do{
+			
+			
+		//System.out.println("Enter a no.");
+		//numberOfStars=input.nextInt();
+			
+		//}while(numberOfStars<1 || numberOfStars<19 || numberOfStars%2==1);
+		
 		int c=0;
+		
+		int y=1;
 		
 		for (int a=0; a<=12; a+=2) {
 			
-			int i=6-c;
-			c++;
+			int i=3-c;
+			c+=1;
 			
 			if (a<=6) {
 				for (int b=0; b<=i; b++) {
@@ -30,7 +45,10 @@ public class Diamond{
 
 			else {
 				
-				for (int b=0; b<=c-1; b++) {
+			    
+				
+				
+				for (int b=0; b<=y; b++) {
 					
 					System.out.printf(" ");
 					
@@ -42,14 +60,11 @@ public class Diamond{
 					
 				}
 				
+				y=y+1;
 				System.out.println();
-				
-				
-			}
-			
-		}
-		//
 		
-	
 	} 
+	
+}
+	}
 }
