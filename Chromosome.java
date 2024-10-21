@@ -14,6 +14,13 @@ public class Chromosome{
 		System.out.println("Enter a no.");
 		chromosomeSize=input.nextInt();
 		
+		
+		do {
+		System.out.println("Enter a no.");
+		chromosomeSize=input.nextInt();
+			
+		}while (chromosomeSize<1 || chromosomeSize>9);
+		
 		b=chromosomeSize/2;
 		
 		for (int c=0; c<=chromosomeSize/2; c++) {
