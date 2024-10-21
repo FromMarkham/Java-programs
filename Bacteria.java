@@ -18,6 +18,12 @@ public class Bacteria{
 		System.out.println("Enter the bacteria size u want to achieve");
 		BacteriaPop=input.nextInt();
 		
+		do {
+		System.out.println("Enter the bacteria size u want to achieve");
+		BacteriaPop=input.nextInt();
+			
+		}while(BacteriaPop<1);
+		
 		while (currentSize<=BacteriaPop) {
 			
 			Seconds+=0.1;
