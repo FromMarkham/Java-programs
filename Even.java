@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//This program gets a number as an input and determines whether its even or odd
 public class Even{
 	
 	public static void main(String[]args) {
