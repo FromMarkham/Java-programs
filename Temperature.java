@@ -1,7 +1,7 @@
 
 
 import java.util.Scanner;
-
+//This program converts fahrenheit to celsius or celsius to fahrenheit
 public class Temperature{
 	
 	public static void main(String[]args) {
