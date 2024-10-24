@@ -1,7 +1,7 @@
 //Date: october 23 2024 
 //Description: program that simulates a coin toss
 //Skills: modules, methods, imports, inputs,  java syntax,  math.random
-//Name: bob Wang, CoinToss.java
+
 
 import java.util.Scanner;
 
