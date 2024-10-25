@@ -10,14 +10,19 @@ public class CharacterSquare{
 		int noofcharacters;
 		String whatcharacter;
 		
-		
+		//ask user how big they want them square to be
 		noofcharacters=howmanycharacters();
+		
+		//ask user what character they want 
 		whatcharacter=whatcharacter();
 		
+		
+		//make the square
 		SquareOfCharacters(noofcharacters,whatcharacter);
 		
 	}
 	
+	//method to ask the user for how many characters they want in them square 
 	private static int howmanycharacters(){
 		
 		int noofcharacters;
@@ -28,6 +33,7 @@ public class CharacterSquare{
 		return noofcharacters;
 	}
 
+	//method to ask user what character they want 
 	private static String whatcharacter(){
 		
 		String thecharacter;
@@ -39,6 +45,7 @@ public class CharacterSquare{
 		
 	}
 	
+	//method to make the square 
 	private static void SquareOfCharacters(int noofcharacters, String whatcharacter){
 		
 		for (int i=0; i<=noofcharacters; i++) {
