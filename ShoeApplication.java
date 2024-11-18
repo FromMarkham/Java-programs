@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-//Name: Bob Wang, ShoeApplication.java
+//Name: ShoeApplication.java
 //Date: November 18 2024 
 //Description: Template class for shoes 
 
