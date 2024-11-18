@@ -1,5 +1,5 @@
 
-//Name: Bob Wang, Shoe.java
+//Name: Shoe.java
 //Date: November 18 2024 
 //Description:  class for making shoes 
 
